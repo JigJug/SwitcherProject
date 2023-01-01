@@ -1,0 +1,288 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /*background: linear-gradient(90deg, rgba(217, 168, 254, 0.503) 0%, rgba(145,132,153,1) 49%, rgba(166, 235, 249, 0.684) 100%);*/
+  background: #2f3241;
+  padding: 1px;
+  -webkit-app-region: drag;
+}
+
+.windowbuttons{
+  background: #2f3241;
+  height: 22px;
+  width: 1170px
+  
+}
+
+.containerbody {
+  width: 1150px;
+  height: auto;
+  background: linear-gradient(167deg, rgba(0,1,23,1) 36%, rgba(30,24,33,0.9026961126247374) 91%);
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+  
+.containerall{
+  
+  padding: 2px
+}
+  
+.containerxlr{
+  width: 76.3%;
+}
+
+  
+  
+.containersidepannelouter{
+  background: radial-gradient(circle, rgba(154, 99, 237, 0.527) 4%, rgba(78,112,255,0.4265056364342612) 18%, rgba(255,77,93,0) 53%);
+  width: 23%;
+  height: 394px;
+  float: right;
+  border-radius: 30px;
+  padding: 5px;
+    /*background-size: 130% 50%;
+    background-position: 50% 0%;*/
+}
+
+  .containersidepannelouterborder{
+    background: linear-gradient(90deg, rgb(167, 66, 245) 0%, rgba(145,132,153,1) 49%, rgb(71, 224, 255) 100%);
+    height: 260px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 30px;
+    padding: 3px;
+  }
+
+  .containersidepannelinner{
+    background: radial-gradient(circle, rgb(11, 11, 36) 0%, rgba(19, 20, 69, 0.732) 100%);
+    height: 260px;
+    border-radius: 30px;
+  }
+  
+  .container2 {
+    width: 872px;
+    height: auto;
+    background: radial-gradient(circle, rgb(52, 52, 56) 0%, rgb(67, 91, 119) 100%);
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    
+  }
+
+  
+  
+  .span {
+    border-radius: 8%;
+    width: 50px;
+    height: 50px;
+    
+    -webkit-app-region: no-drag;
+  }
+
+  .hazei{
+    display: inline-block;
+    
+    width: 50px;
+    height: 50px;
+    
+    /*background: radial-gradient(circle, rgba(167, 66, 245, 0.311) 65%, rgba(27,255,0,0) 88%);*/
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.474) 68%, rgba(27,255,0,0) 81%);
+  }
+
+  .hazeo{
+    display: inline-block;
+    
+    width: 50px;
+    height: 50px;
+    
+  
+    /*background: radial-gradient(circle, rgba(71, 224, 255, 0.408) 62%, rgba(27,255,0,0) 88%);*/
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.438) 68%, rgba(27,255,0,0) 81%);
+  }
+
+  table{
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 4px;
+    font-size: small;
+    color: aliceblue;
+  }
+
+  p{
+    margin-left: 9px;
+  }
+
+  .switcherterminal{
+    display: block;
+    overflow-y:hidden;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(180deg, rgba(0,1,23,1) 49%, rgb(34, 34, 34) 69%, rgba(0,0,0,1) 84%);
+    color: rgb(201, 201, 201);
+    font-family: Consolas;
+    width: 100%;
+    height: 78px;
+    font-size: x-small;
+    overflow-x: hidden;
+
+  }
+
+  .in{
+    background-image: url(".\\app\\pics\\xlr50in.png");
+    -webkit-app-region: no-drag;
+  }
+
+  .ou{
+    background-image: url(".\\app\\pics\\xlr50.png");
+    -webkit-app-region: no-drag;
+  }
+
+  .ou:hover{
+    background-image: url(".\\app\\pics\\xlr50grn.png");
+    -webkit-app-region: no-drag;
+    transition: 0.2s;
+  }
+
+  .in:hover{
+    background-image: url(".\\app\\pics\\xlr50inred.png");
+    -webkit-app-region: no-drag;
+    transition: 0.2s;
+  }
+
+  .inon{
+    background-image: url(".\\app\\pics\\xlr50inred.png");
+    -webkit-app-region: no-drag;
+    transition: 0.2s;
+  }
+
+  .ouon{
+    background-image: url(".\\app\\pics\\xlr50grn.png");
+    -webkit-app-region: no-drag;
+    transition: 0.2s;
+  }
+
+  .info{
+    display: block;
+    margin: 0 auto;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+  
+  /*.circle{
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(57,57,71,1) 37%, rgba(99,94,98,1) 100%, rgba(0,212,255,1) 100%);
+    
+    border-style: solid;
+    padding: 2px;
+  }
+  
+  .button {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding-top: 80%;
+    
+    background: radial-gradient(circle, rgba(167,153,158,1) 0%, rgba(104,110,118,1) 100%);
+    
+  }
+  
+  
+  .circle:hover{
+    background: #c6ffb3;
+    transition: 0.2s;
+  }
+  
+  .button:hover{
+    background: #c6ffb3;
+    transition: 0.2s;
+  }*/
+  
+  
+  
+  
+  
+  /*alll copied stuff for toggle buttons*/
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    float: left;
+    margin: 10px;
+    -webkit-app-region: no-drag;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    -webkit-app-region: no-drag;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgb(167, 66, 245) 0%, rgba(20, 20, 66, 0) 93%);
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-app-region: no-drag;
+  
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-app-region: no-drag;
+  }
+  
+  input:checked + .slider {
+    background: linear-gradient(90deg, rgba(20, 20, 66, 0) 7%, rgb(71, 224, 255) 100%);
+    -webkit-app-region: no-drag;
+  }
+  
+  input:focus + .slider {
+    /*box-shadow: 0 0 1px #2196F3;*/
+    -webkit-app-region: no-drag;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    -webkit-app-region: no-drag;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+    -webkit-app-region: no-drag;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    -webkit-app-region: no-drag;
+  }
+
