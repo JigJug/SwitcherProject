@@ -1,0 +1,21 @@
+{
+  "name": "switchproj",
+  "version": "1.0.0",
+  "description": "Switcher Project",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "test",
+    "start": "electron ."
+  },
+  "author": "SD",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/serialport": "^8.0.2",
+    "electron": "^21.2.3",
+    "electron-rebuild": "^3.2.9",
+    "serialport": "^10.4.0",
+    "socket.io-client": "^4.5.4",
+    "typescript": "^4.9.4"
+  }
+}
